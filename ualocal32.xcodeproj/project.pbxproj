@@ -57,6 +57,7 @@
 		CB62C2F01EF0CC890054AE17 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		CB62C2F21EF188D20054AE17 /* MapViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewViewController.swift; sourceTree = "<group>"; };
 		CBB399E61EF1AF2E00C80EF0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CBB399E81EF1DA1600C80EF0 /* ualocal32.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ualocal32.entitlements; sourceTree = "<group>"; };
 		CBC24F2E1EE8D6AA00B58C36 /* ualocal32.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ualocal32.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC24F311EE8D6AA00B58C36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBC24F331EE8D6AA00B58C36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -151,6 +152,7 @@
 		CBC24F301EE8D6AA00B58C36 /* ualocal32 */ = {
 			isa = PBXGroup;
 			children = (
+				CBB399E81EF1DA1600C80EF0 /* ualocal32.entitlements */,
 				CBC24F311EE8D6AA00B58C36 /* AppDelegate.swift */,
 				CBC24F331EE8D6AA00B58C36 /* ViewController.swift */,
 				CBC24F351EE8D6AA00B58C36 /* Main.storyboard */,
@@ -265,6 +267,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = V243T33UAS;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					CBC24F441EE8D6AA00B58C36 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -633,6 +640,7 @@
 			baseConfigurationReference = 782E4F06A870077BD65D5576 /* Pods-ualocal32.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ualocal32/ualocal32.entitlements;
 				DEVELOPMENT_TEAM = V243T33UAS;
 				INFOPLIST_FILE = ualocal32/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -647,6 +655,7 @@
 			baseConfigurationReference = 09EC82F49987E09B319E5F9A /* Pods-ualocal32.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ualocal32/ualocal32.entitlements;
 				DEVELOPMENT_TEAM = V243T33UAS;
 				INFOPLIST_FILE = ualocal32/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
