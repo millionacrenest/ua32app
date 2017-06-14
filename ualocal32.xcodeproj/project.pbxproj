@@ -11,9 +11,11 @@
 		186AD71B1935D3A6579ED4C9 /* Pods_ualocal32Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213982CF91E7C90BE84A2FB3 /* Pods_ualocal32Tests.framework */; };
 		2F2D67DA07DA6B147D8870CF /* Pods_ualocal32UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E59DF18998BD4166B1A6873C /* Pods_ualocal32UITests.framework */; };
 		CB4195311EE8DB73008F8317 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4195301EE8DB73008F8317 /* SignUpViewController.swift */; };
-		CB62C2E91EF0C6780054AE17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB62C2E81EF0C6780054AE17 /* GoogleService-Info.plist */; };
-		CB62C2EA1EF0C6780054AE17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB62C2E81EF0C6780054AE17 /* GoogleService-Info.plist */; };
-		CB62C2EB1EF0C6780054AE17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB62C2E81EF0C6780054AE17 /* GoogleService-Info.plist */; };
+		CB62C2ED1EF0CA310054AE17 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB62C2EC1EF0CA310054AE17 /* LoginViewController.swift */; };
+		CB62C2EF1EF0CB8A0054AE17 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB62C2EE1EF0CB8A0054AE17 /* HomeViewController.swift */; };
+		CB62C2F11EF0CC890054AE17 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB62C2F01EF0CC890054AE17 /* ResetPasswordViewController.swift */; };
+		CB62C2F31EF188D20054AE17 /* MapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB62C2F21EF188D20054AE17 /* MapViewViewController.swift */; };
+		CBB399E71EF1AF2E00C80EF0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBB399E61EF1AF2E00C80EF0 /* GoogleService-Info.plist */; };
 		CBC24F321EE8D6AA00B58C36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC24F311EE8D6AA00B58C36 /* AppDelegate.swift */; };
 		CBC24F341EE8D6AA00B58C36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC24F331EE8D6AA00B58C36 /* ViewController.swift */; };
 		CBC24F371EE8D6AA00B58C36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC24F351EE8D6AA00B58C36 /* Main.storyboard */; };
@@ -50,7 +52,11 @@
 		782E4F06A870077BD65D5576 /* Pods-ualocal32.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ualocal32.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ualocal32/Pods-ualocal32.debug.xcconfig"; sourceTree = "<group>"; };
 		7A9D568BF9908FF739F7CAF0 /* Pods-ualocal32UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ualocal32UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ualocal32UITests/Pods-ualocal32UITests.release.xcconfig"; sourceTree = "<group>"; };
 		CB4195301EE8DB73008F8317 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		CB62C2E81EF0C6780054AE17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CB62C2EC1EF0CA310054AE17 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CB62C2EE1EF0CB8A0054AE17 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CB62C2F01EF0CC890054AE17 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		CB62C2F21EF188D20054AE17 /* MapViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewViewController.swift; sourceTree = "<group>"; };
+		CBB399E61EF1AF2E00C80EF0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		CBC24F2E1EE8D6AA00B58C36 /* ualocal32.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ualocal32.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC24F311EE8D6AA00B58C36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBC24F331EE8D6AA00B58C36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -148,12 +154,16 @@
 				CBC24F311EE8D6AA00B58C36 /* AppDelegate.swift */,
 				CBC24F331EE8D6AA00B58C36 /* ViewController.swift */,
 				CBC24F351EE8D6AA00B58C36 /* Main.storyboard */,
+				CB62C2F21EF188D20054AE17 /* MapViewViewController.swift */,
+				CB62C2F01EF0CC890054AE17 /* ResetPasswordViewController.swift */,
+				CB62C2EE1EF0CB8A0054AE17 /* HomeViewController.swift */,
+				CB62C2EC1EF0CA310054AE17 /* LoginViewController.swift */,
 				CB4195301EE8DB73008F8317 /* SignUpViewController.swift */,
 				CBC24F3B1EE8D6AA00B58C36 /* Assets.xcassets */,
 				CBC24F3D1EE8D6AA00B58C36 /* LaunchScreen.storyboard */,
 				CBC24F401EE8D6AA00B58C36 /* Info.plist */,
 				CBC24F381EE8D6AA00B58C36 /* ualocal32.xcdatamodeld */,
-				CB62C2E81EF0C6780054AE17 /* GoogleService-Info.plist */,
+				CBB399E61EF1AF2E00C80EF0 /* GoogleService-Info.plist */,
 			);
 			path = ualocal32;
 			sourceTree = "<group>";
@@ -296,7 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBC24F3F1EE8D6AA00B58C36 /* LaunchScreen.storyboard in Resources */,
-				CB62C2E91EF0C6780054AE17 /* GoogleService-Info.plist in Resources */,
+				CBB399E71EF1AF2E00C80EF0 /* GoogleService-Info.plist in Resources */,
 				CBC24F3C1EE8D6AA00B58C36 /* Assets.xcassets in Resources */,
 				CBC24F371EE8D6AA00B58C36 /* Main.storyboard in Resources */,
 			);
@@ -306,7 +316,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB62C2EA1EF0C6780054AE17 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +323,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB62C2EB1EF0C6780054AE17 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,7 +474,11 @@
 				CBC24F341EE8D6AA00B58C36 /* ViewController.swift in Sources */,
 				CBC24F321EE8D6AA00B58C36 /* AppDelegate.swift in Sources */,
 				CB4195311EE8DB73008F8317 /* SignUpViewController.swift in Sources */,
+				CB62C2ED1EF0CA310054AE17 /* LoginViewController.swift in Sources */,
 				CBC24F3A1EE8D6AA00B58C36 /* ualocal32.xcdatamodeld in Sources */,
+				CB62C2EF1EF0CB8A0054AE17 /* HomeViewController.swift in Sources */,
+				CB62C2F31EF188D20054AE17 /* MapViewViewController.swift in Sources */,
+				CB62C2F11EF0CC890054AE17 /* ResetPasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
